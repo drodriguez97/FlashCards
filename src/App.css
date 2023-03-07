@@ -37,6 +37,15 @@
   padding: 2em;
 }
 
+.card {
+  perspective: 1000px;
+  transform: rotateY(180deg); 
+}
+
+.card:hover {
+  transform: rotateY(-180deg);
+}
+
 .read-the-docs {
   color: #888;
 }

@@ -31,6 +31,11 @@ body {
   min-height: 100vh;
 }
 
+body {
+  background-color: #f7f7f7;
+  color: #000000;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -66,4 +71,26 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.cardQuestion {  
+  background-color: rgba(46, 150, 62, 0.5);
+  color: #040404;
+  padding: 70px;
+}
+
+.cardQuestion:hover {
+  box-shadow: 0 0 5px 2px #00000080;
+}
+
+.cardAnswer { 
+  background-color: rgba(231, 218, 31, 0.5);
+  color: #212020;
+  padding: 70px;
+  backface-visibility: hidden;
+}
+
+
+.cardAnswer:hover {
+  box-shadow: 0 0 5px 2px #00000080;
 }
