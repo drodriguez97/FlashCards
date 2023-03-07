@@ -35,7 +35,7 @@ const FlashCardList=(props) => {
     }
     return (
         <div>
-            <h4><i>Number of Cards: </i> {cardText.length}</h4>
+            <h4>Number of Cards: {cardText.length}</h4>
             {myCard}
             <button onClick={NextFlashCards}>⭢</button>
         </div>
